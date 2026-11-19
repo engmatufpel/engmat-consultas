@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Bancos SQLite
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+
+# Exceção: banco público de consulta
+!dados_publicos/horarios-publicos.sqlite3
+
+# Credenciais
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+*~
